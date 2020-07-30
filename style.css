@@ -8,3 +8,30 @@ body {
 }
 
 /* ---------------------------------------------------- */
+.osoba img {
+	border-radius: 50%;	
+}
+
+/*mobil*/
+
+.osoba {
+	border: 1px solid darkgrey; 
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+}
+@media (min-width:540px) {
+	.tym {display: flex;
+		flex-wrap: wrap;
+	}
+	.osoba {width: calc(50% - 40px);
+	}
+}
+
+@media (min-width:960px) {
+	.tym {display: flex;
+		flex-wrap: wrap;
+	}
+	.osoba {width: calc(25% - 40px);
+	}
+}
